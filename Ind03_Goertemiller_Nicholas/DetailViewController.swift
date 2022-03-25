@@ -8,10 +8,14 @@
 import UIKit
 
 
+// label and images
+
 class DetailViewController: UIViewController {
   @IBOutlet weak var detailDescriptionLabel: UILabel!
   @IBOutlet weak var testImageView: UIImageView!
   
+    
+    
   var test: State? {
     didSet {
       configureView()
@@ -23,6 +27,8 @@ class DetailViewController: UIViewController {
     
     configureView()
   }
+    
+    // get images onto viewController
   
   func configureView() {
     if let test = test,

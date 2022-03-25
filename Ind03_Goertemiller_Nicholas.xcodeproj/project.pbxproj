@@ -27,7 +27,6 @@
 		36D024EA27EAAA630009E67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36D024EC27EAAA650009E67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D024EF27EAAA650009E67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		36D024F127EAAA650009E67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36F5418A27EC2B7F00C389EC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		36F5418C27EC2B9E00C389EC /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		36F5418E27EC2BC500C389EC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +72,6 @@
 				36F5419027EC2BE900C389EC /* MasterViewController.swift */,
 				36D024EC27EAAA650009E67C /* Assets.xcassets */,
 				36D024EE27EAAA650009E67C /* LaunchScreen.storyboard */,
-				36D024F127EAAA650009E67C /* Info.plist */,
 				3649FB9927EC336D00204C4B /* states.json */,
 			);
 			path = Ind03_Goertemiller_Nicholas;

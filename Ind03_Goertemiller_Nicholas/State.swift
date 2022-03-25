@@ -182,6 +182,10 @@ extension State.nickName: RawRepresentable {
   }
 }
 
+
+
+// .json file that contains all information for the states
+
 extension State {
   static func states() -> [State] {
     guard

@@ -18,6 +18,8 @@ class MasterViewController: UIViewController {
     states = State.states()
   }
   
+    
+    // get viewTable
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     
@@ -25,6 +27,9 @@ class MasterViewController: UIViewController {
       tableView.deselectRow(at: indexPath, animated: true)
     }
   }
+    
+    
+    // segue to DetailViewController
   
   override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     guard
@@ -48,6 +53,9 @@ extension MasterViewController: UITableViewDataSource {
                  numberOfRowsInSection section: Int) -> Int {
     return states.count
   }
+    
+    
+    // reuse cells
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
