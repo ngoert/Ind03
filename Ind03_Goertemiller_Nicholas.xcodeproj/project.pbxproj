@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3649FB9A27EC336D00204C4B /* states.json in Resources */ = {isa = PBXBuildFile; fileRef = 3649FB9927EC336D00204C4B /* states.json */; };
 		36D024E427EAAA630009E67C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D024E327EAAA630009E67C /* AppDelegate.swift */; };
 		36D024E627EAAA630009E67C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D024E527EAAA630009E67C /* SceneDelegate.swift */; };
-		36D024E827EAAA630009E67C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D024E727EAAA630009E67C /* ViewController.swift */; };
 		36D024EB27EAAA630009E67C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D024E927EAAA630009E67C /* Main.storyboard */; };
 		36D024ED27EAAA650009E67C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D024EC27EAAA650009E67C /* Assets.xcassets */; };
 		36D024F027EAAA650009E67C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36D024EE27EAAA650009E67C /* LaunchScreen.storyboard */; };
+		36F5418B27EC2B7F00C389EC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5418A27EC2B7F00C389EC /* State.swift */; };
+		36F5418D27EC2B9E00C389EC /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5418C27EC2B9E00C389EC /* ColorTheme.swift */; };
+		36F5418F27EC2BC500C389EC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5418E27EC2BC500C389EC /* DetailViewController.swift */; };
+		36F5419127EC2BE900C389EC /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F5419027EC2BE900C389EC /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3649FB9927EC336D00204C4B /* states.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = states.json; path = ../../states.json; sourceTree = "<group>"; };
 		36D024E027EAAA630009E67C /* Ind03_Goertemiller_Nicholas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ind03_Goertemiller_Nicholas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D024E327EAAA630009E67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36D024E527EAAA630009E67C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36D024E727EAAA630009E67C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36D024EA27EAAA630009E67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36D024EC27EAAA650009E67C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D024EF27EAAA650009E67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36D024F127EAAA650009E67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F5418A27EC2B7F00C389EC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		36F5418C27EC2B9E00C389EC /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		36F5418E27EC2BC500C389EC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		36F5419027EC2BE900C389EC /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				36D024E327EAAA630009E67C /* AppDelegate.swift */,
 				36D024E527EAAA630009E67C /* SceneDelegate.swift */,
-				36D024E727EAAA630009E67C /* ViewController.swift */,
 				36D024E927EAAA630009E67C /* Main.storyboard */,
+				36F5418A27EC2B7F00C389EC /* State.swift */,
+				36F5418C27EC2B9E00C389EC /* ColorTheme.swift */,
+				36F5418E27EC2BC500C389EC /* DetailViewController.swift */,
+				36F5419027EC2BE900C389EC /* MasterViewController.swift */,
 				36D024EC27EAAA650009E67C /* Assets.xcassets */,
 				36D024EE27EAAA650009E67C /* LaunchScreen.storyboard */,
 				36D024F127EAAA650009E67C /* Info.plist */,
+				3649FB9927EC336D00204C4B /* states.json */,
 			);
 			path = Ind03_Goertemiller_Nicholas;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3649FB9A27EC336D00204C4B /* states.json in Resources */,
 				36D024F027EAAA650009E67C /* LaunchScreen.storyboard in Resources */,
 				36D024ED27EAAA650009E67C /* Assets.xcassets in Resources */,
 				36D024EB27EAAA630009E67C /* Main.storyboard in Resources */,
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36D024E827EAAA630009E67C /* ViewController.swift in Sources */,
+				36F5419127EC2BE900C389EC /* MasterViewController.swift in Sources */,
 				36D024E427EAAA630009E67C /* AppDelegate.swift in Sources */,
 				36D024E627EAAA630009E67C /* SceneDelegate.swift in Sources */,
+				36F5418D27EC2B9E00C389EC /* ColorTheme.swift in Sources */,
+				36F5418B27EC2B7F00C389EC /* State.swift in Sources */,
+				36F5418F27EC2BC500C389EC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
